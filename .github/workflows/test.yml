@@ -50,13 +50,6 @@ jobs:
         run: |
           pytest --cov twitter --cov tests --cov-report=xml
 
-      - name: Coveralls Parallel
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          flag-name: run-${{ matrix.python-version }}
-          parallel: true
-
       - name: Coveralls
         uses: AndreMiras/coveralls-python-action@develop
         with:
