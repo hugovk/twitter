@@ -4,3 +4,4 @@ omit =
     */pypy/*
     */site-packages/nose/*
     tests/*
+relative_files = True
