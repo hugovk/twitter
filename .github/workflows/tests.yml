@@ -15,7 +15,7 @@ jobs:
         # Include 2.7, lowest and highest 3.x, plus any dev versions
         python-version: [
             "2.7",
-            "3.6",
+            "3.7",
             "3.10",
             "3.11-dev",
             "pypy2.7",
